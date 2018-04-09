@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gif Perfect</title>
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="jumbotron">
+            <h1 class="display-3">Gif Perfect</h1>
+            <p id="lead">Search for your favoriate Giphy. Click to animate.</p>
+            <div id="search-area">
+                <form id="giphy-form">
+                    <label for="giphy-input">Add a new giphy button</label>
+                    <br>
+                    <input type="text" id="giphy-input">
+                    <br>
+                    <br>
+                    <!-- Button triggers new giphy to be added -->
+                    <input id="add-giphy" type="submit" value="Submit">
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div class="row">
+            <div id="buttons-view"></div>
+        </div>
+
+        <!-- Giphy will Get Dumped Dere -->
+        <div class="row">
+            <div id="giphy-view"></div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added link to the trivia script -->
+    <script type="text/javascript" src="assets/js/script.js">
+    </script>
+</body>
+
+</html>

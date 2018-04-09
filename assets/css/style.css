@@ -1,0 +1,61 @@
+.parent {
+    text-align: center;
+}
+
+.display-3 {
+    color: #4aaaa5 !important;
+}
+
+#lead {
+    font-size: 25px !important;
+    color: #000000;
+}
+
+.jumbotron {
+    text-align: center !important;
+}
+
+#search-area {
+    text-align: center !important;
+}
+
+.giphy {
+    padding: 10px 10px;
+    margin: 10px 30px 5px 5px !important;
+    ;
+    font-size: 18px !important;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4aaaa5;
+    border: 0 none;
+}
+
+#giphy-form {
+    margin-top: 50px !important;
+    font-size: 20px;
+    color: #4aaaa5 !important;
+    font-family: Georgia, Times, "Times New Roman", serif !important;
+}
+
+.giphyDiv {
+    margin-top: 50px !important;
+}
+
+.giphyImage {
+    height: 230px;
+    width: 260px;
+}
+
+p {
+    font-family: Georgia, Times, "Times New Roman", serif !important;
+    font-size: 18px !important;
+    color: #4aaaa5 !important;
+}
+
+#buttons-view {
+    text-align: center !important;
+}
+
+#giphy-view {
+    text-align: center !important;
+}
